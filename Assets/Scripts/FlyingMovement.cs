@@ -1,8 +1,8 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class FlyingMovement : MonoBehaviour {
+    private float directionTimer = 0f;
     private float currentSpeed;
     private Collider2D target;
     
@@ -19,26 +19,31 @@ public class FlyingMovement : MonoBehaviour {
     }
 
     private void Start() {
-        StartCoroutine(ChangeDirection());
+        ChangeDirection();
     }
 
     private void Update() {
         CheckForTarget();
         SetSpeed();
+        HandleChangeDirection();
+    }
+
+    private void HandleChangeDirection() {
+        directionTimer += Time.deltaTime;
+        if (!(directionTimer >= directionChangeInterval)) return;
+        
+        directionTimer = 0f;
+        ChangeDirection();
     }
 
     private void FixedUpdate() {
         rb.velocity = direction * currentSpeed;
     }
 
-    private IEnumerator ChangeDirection() {
-        while (true) {
-            yield return new WaitForSeconds(directionChangeInterval);
-
-            if (target) continue;
-            var angle = Random.Range(0, 360) * Mathf.Deg2Rad;
-            direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
-        }
+    private void ChangeDirection() {
+        if (target) return;
+        var angle = Random.Range(0, 360) * Mathf.Deg2Rad;
+        direction = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
     }
     
     private void CheckForTarget() {
