@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: -8092607485198221322}
   - component: {fileID: -7619639029698309585}
   - component: {fileID: 7325768094853041997}
+  - component: {fileID: 1133144599869517701}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -294,6 +295,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 5085416852632533420}
   invulnerabilityManager: {fileID: -8092607485198221322}
+--- !u!114 &1133144599869517701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559552219641392292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346216a14f5d4caaa6b28913973da575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 5085416852632533420}
 --- !u!1 &5648364287475790720
 GameObject:
   m_ObjectHideFlags: 0
