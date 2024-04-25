@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5905170080761014759}
   - component: {fileID: 7943293133158906492}
   - component: {fileID: 1386019933477840304}
+  - component: {fileID: 6416901487957038625}
   - component: {fileID: 5085416852632533420}
   - component: {fileID: 503425969301337755}
   - component: {fileID: -4607250661003612707}
@@ -167,10 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cfffbd0d1e6fe342ae6f217f1b247ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackFireRate: 0.2
-  magicBoltSpawnPoint: {fileID: 6681523597642130494}
-  magicBoltSound: {fileID: 0}
-  magicBoltIndex: 0
+  inventory: {fileID: 6416901487957038625}
+  defaultWeaponData: {fileID: 11400000, guid: e466290be6687974d9aeb9386533b003, type: 2}
 --- !u!114 &1386019933477840304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,8 +182,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c65f32c519e1204284e2e4067c42e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 0}
+  character: {fileID: 5085416852632533420}
   maxHealth: 100
+--- !u!114 &6416901487957038625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559552219641392292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 203e0a5afb2448329fc04e5154a98b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponDatas:
+  - {fileID: 11400000, guid: e466290be6687974d9aeb9386533b003, type: 2}
+  defaultSpawnPoint: {fileID: 6681523597642130494}
 --- !u!114 &5085416852632533420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5085416852632533420}
+  inventory: {fileID: 6416901487957038625}
 --- !u!114 &-4607250661003612707
 MonoBehaviour:
   m_ObjectHideFlags: 0
