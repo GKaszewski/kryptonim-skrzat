@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,9 +21,15 @@ public class Combat : MonoBehaviour, Controls.IPlayerActions {
         controls = new Controls();
         controls.Player.AddCallbacks(this);
         inventory ??= GetComponent<Inventory>();
+    }
+
+    private void Start() {
+        if (inventory.GetWeapons().Count == 0) {
+            inventory.AddWeapon(defaultWeaponData);
+        }
         SwitchWeapon(inventory.GetWeapons()[0]);
     }
-    
+
     public void OnMovement(InputAction.CallbackContext context) {
 
     }
