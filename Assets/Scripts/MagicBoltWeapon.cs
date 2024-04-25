@@ -31,9 +31,4 @@ public class MagicBoltWeapon : MonoBehaviour, IWeapon {
             attackFireRateCounter -= Time.deltaTime;
         }
     }
-
-
-    public void Use(CharacterAttributes character) {
-        throw new System.NotImplementedException();
-    }
 }
