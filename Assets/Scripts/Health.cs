@@ -6,7 +6,7 @@ public class Health : MonoBehaviour {
     [SerializeField] private float maxHealth = 100f;
 
     private void Start() {
-        character.health = maxHealth;
+        character.SetHealth(maxHealth);
     }
     
     public void TakeDamage(float damage) {

@@ -23,7 +23,7 @@ public class DeathHandler : MonoBehaviour {
     }
 
     private void OnHealthChanged(float _) {
-        if (character.health <= 0f) {
+        if (character.Health <= 0f) {
             Die();
         }
     }

@@ -16,8 +16,6 @@ public class GameManager : MonoBehaviour {
             return;
         }
 
-        DontDestroyOnLoad(gameObject);
-
         if (!timeManager) timeManager = GetComponent<TimeManager>();
     }
 

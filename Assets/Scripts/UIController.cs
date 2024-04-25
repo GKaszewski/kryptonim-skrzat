@@ -18,10 +18,10 @@ public class UIController : MonoBehaviour {
         scoreLabel = root.Q<Label>("score-label");
         highScoreLabel = root.Q<Label>("high-score-label");
 
-        healthBar.value = player.health;
+        healthBar.value = player.Health;
         UpdateKeysLabel(0);
-        UpdateScoreLabel(player.score);
-        UpdateHighScoreLabel(player.highScore);
+        UpdateScoreLabel(player.Score);
+        UpdateHighScoreLabel(player.HighScore);
 
         if (!player) return;
         player.OnHealthChanged += UpdateHealthBar;
