@@ -1,21 +1,22 @@
 using System.Collections;
+using KBCore.Refs;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Movement : MonoBehaviour, Controls.IPlayerActions {
     private Controls controls;
-    private Rigidbody2D rb;
     private float horizontal;
     private bool jumped;
     private bool jumpedUp;
-    [HideInInspector] public bool isFacingRight;
     private bool isJumping;
     private float lastGroundTime;
-    [SerializeField] private float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
-    [SerializeField] private float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
+    
+    [SerializeField, Self] private Rigidbody2D rb;
+    [SerializeField] private float coyoteTime = 0.2f;
+    [SerializeField] private float jumpBufferTime = 0.2f;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private AudioClip jumpSound;
@@ -35,6 +36,8 @@ public class Movement : MonoBehaviour, Controls.IPlayerActions {
     [SerializeField] private bool applyJumpCut = true;
     [SerializeField] private bool applyFallGravity = true;
     [SerializeField] private bool capVelocity = true;
+    
+    [HideInInspector] public bool isFacingRight;
 
     private void Awake() {
         controls = new Controls();
@@ -47,10 +50,6 @@ public class Movement : MonoBehaviour, Controls.IPlayerActions {
     
     private void OnDisable() {
         controls.Disable();
-    }
-
-    private void Start() {
-        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update() {

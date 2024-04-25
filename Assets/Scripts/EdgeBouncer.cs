@@ -1,18 +1,15 @@
-﻿using UnityEngine;
+﻿using KBCore.Refs;
+using UnityEngine;
 
 public class EdgeBouncer : MonoBehaviour {
     [SerializeField] private float speed = 5.0f;
     [SerializeField] private float rayLength = 1.0f;
-    [SerializeField] private Rigidbody2D rb;
+    [SerializeField, Self] private Rigidbody2D rb;
     [SerializeField] private Vector2 direction = Vector2.right;
     [SerializeField] private LayerMask walkableLayer;
     [SerializeField] private Transform groundCheckLeft;
     [SerializeField] private Transform groundCheckRight;
-
-    private void Awake() {
-        if (!rb) rb = GetComponent<Rigidbody2D>();
-    }
-
+    
     private void Update() {
         SetDirection();
     }

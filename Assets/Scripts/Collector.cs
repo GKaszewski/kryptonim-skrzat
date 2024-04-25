@@ -1,14 +1,9 @@
+using KBCore.Refs;
 using UnityEngine;
 
 public class Collector : MonoBehaviour {
-    [SerializeField]
-    private CharacterAttributes player;
-    [SerializeField] private Inventory inventory;
-
-    private void Awake() {
-        if (!player) player = GetComponent<CharacterAttributes>();
-        if (!inventory) inventory = GetComponent<Inventory>();
-    }
+    [SerializeField, Self] private CharacterAttributes player;
+    [SerializeField, Self] private Inventory inventory;
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (!other.CompareTag("Item")) return;

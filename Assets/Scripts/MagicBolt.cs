@@ -1,16 +1,17 @@
+using System;
 using System.Collections;
+using KBCore.Refs;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class MagicBolt : MonoBehaviour {
-    private Rigidbody2D rb;
-    
+    [SerializeField, Self] private Rigidbody2D rb;
     [SerializeField] private float damage = 1f;
     [SerializeField] private float speed = 10f;
     [SerializeField] private float lifeTime = 2f;
 
     private void Awake() {
-        rb = GetComponent<Rigidbody2D>();
+        if (!rb) rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnEnable() {

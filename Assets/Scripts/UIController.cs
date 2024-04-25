@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using KBCore.Refs;
+using UnityEngine;
 using UnityEngine.UIElements;
 
 public class UIController : MonoBehaviour {
@@ -7,12 +8,10 @@ public class UIController : MonoBehaviour {
     private Label scoreLabel;
     private Label highScoreLabel;
 
-    [SerializeField] private UIDocument document;
+    [SerializeField, Self] private UIDocument document;
     [SerializeField] private CharacterAttributes player;
 
     private void Awake() {
-        document ??= GetComponent<UIDocument>();
-        
         var root = document.rootVisualElement;
         healthBar = root.Q<ProgressBar>("health-bar");
         keysLabel = root.Q<Label>("keys-label");

@@ -1,4 +1,4 @@
-using System;
+using KBCore.Refs;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,7 +6,7 @@ public class Combat : MonoBehaviour, Controls.IPlayerActions {
     private Controls controls;
     private IWeapon currentWeapon;
 
-    [SerializeField] private Inventory inventory;
+    [SerializeField, Self] private Inventory inventory;
     [SerializeField] private WeaponData defaultWeaponData;
     
     private void OnEnable() {
@@ -20,7 +20,6 @@ public class Combat : MonoBehaviour, Controls.IPlayerActions {
     private void Awake() {
         controls = new Controls();
         controls.Player.AddCallbacks(this);
-        if (!inventory) inventory = GetComponent<Inventory>();
     }
 
     private void Start() {

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using KBCore.Refs;
+using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class FlyingMovement : MonoBehaviour {
@@ -11,13 +12,9 @@ public class FlyingMovement : MonoBehaviour {
     [SerializeField] private float directionChangeInterval = 3f;
     [SerializeField] private float detectionRadius = 5f;
     [SerializeField] private LayerMask targetLayer;
-    [SerializeField] private Rigidbody2D rb;
+    [SerializeField, Self] private Rigidbody2D rb;
     [SerializeField] private Vector2 direction = Vector2.right;
-
-    private void Awake() {
-        if (!rb) rb = GetComponent<Rigidbody2D>();
-    }
-
+    
     private void Start() {
         ChangeDirection();
     }

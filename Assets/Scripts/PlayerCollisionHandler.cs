@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using KBCore.Refs;
+using UnityEngine;
 
 public class PlayerCollisionHandler : MonoBehaviour {
-    [SerializeField] private CharacterAttributes character;
-    [SerializeField] private InvulnerabilityManager invulnerabilityManager;
+    [SerializeField, Self] private CharacterAttributes character;
+    [SerializeField, Self] private InvulnerabilityManager invulnerabilityManager;
 
     private void OnTriggerEnter2D(Collider2D other) {
         InflictDamage(other);

@@ -187,6 +187,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: -6320590300258854610}
+  deathBehavior:
+    _implementer: {fileID: 0}
 --- !u!114 &1960090423757862371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474e5d7bf2924284a02347784f98ace1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectRenderer: {fileID: 3116545478019834895}
   invulnerabilityManager: {fileID: 8316084269288794506}
 --- !u!114 &9028888380964197797
 MonoBehaviour:

@@ -1,12 +1,12 @@
-﻿using UnityEngine;
+﻿using KBCore.Refs;
+using UnityEngine;
 
 public class DeathHandler : MonoBehaviour {
     private IDeathBehavior deathBehavior;
     
-    [SerializeField] private CharacterAttributes character;
+    [SerializeField, Self] private CharacterAttributes character;
 
     private void Awake() {
-        if (!character) character = GetComponent<CharacterAttributes>();
         if (deathBehavior == null) deathBehavior = GetComponent<IDeathBehavior>();
 
         character.OnHealthChanged += OnHealthChanged;
