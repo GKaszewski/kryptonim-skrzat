@@ -6,8 +6,8 @@ public class Collector : MonoBehaviour {
     [SerializeField] private Inventory inventory;
 
     private void Awake() {
-        player ??= GetComponent<CharacterAttributes>();
-        inventory ??= GetComponent<Inventory>();
+        if (!player) player = GetComponent<CharacterAttributes>();
+        if (!inventory) inventory = GetComponent<Inventory>();
     }
 
     private void OnTriggerEnter2D(Collider2D other) {

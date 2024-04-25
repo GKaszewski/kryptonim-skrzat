@@ -10,7 +10,7 @@ public class EdgeBouncer : MonoBehaviour {
     [SerializeField] private Transform groundCheckRight;
 
     private void Awake() {
-        rb ??= GetComponent<Rigidbody2D>();
+        if (!rb) rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update() {

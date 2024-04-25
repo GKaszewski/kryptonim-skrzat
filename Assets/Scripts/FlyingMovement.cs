@@ -15,7 +15,7 @@ public class FlyingMovement : MonoBehaviour {
     [SerializeField] private Vector2 direction = Vector2.right;
 
     private void Awake() {
-        rb ??= GetComponent<Rigidbody2D>();
+        if (!rb) rb = GetComponent<Rigidbody2D>();
     }
 
     private void Start() {

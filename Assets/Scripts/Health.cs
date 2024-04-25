@@ -5,11 +5,7 @@ public class Health : MonoBehaviour {
     [SerializeField] private float maxHealth = 100f;
 
     private void Start() {
-        character ??= GetComponent<CharacterAttributes>();
-        if (!character) {
-            Debug.LogError("CharacterAttributes component not found.");
-            return;
-        }
+        if (!character) character = GetComponent<CharacterAttributes>();
         character.health = maxHealth;
     }
     

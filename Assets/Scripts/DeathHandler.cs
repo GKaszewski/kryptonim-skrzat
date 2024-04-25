@@ -6,8 +6,8 @@ public class DeathHandler : MonoBehaviour {
     [SerializeField] private CharacterAttributes character;
 
     private void Awake() {
-        character ??= GetComponent<CharacterAttributes>();
-        deathBehavior ??= GetComponent<IDeathBehavior>();
+        if (!character) character = GetComponent<CharacterAttributes>();
+        if (deathBehavior == null) deathBehavior = GetComponent<IDeathBehavior>();
 
         character.OnHealthChanged += OnHealthChanged;
     }
