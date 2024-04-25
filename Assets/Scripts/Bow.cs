@@ -25,12 +25,9 @@ public class Bow : MonoBehaviour  {
 
     private void Attack() {
         if (!(attackFireRateCounter <= 0f)) return;
-        if (!ObjectPooler.SharedInstance.GetPooledObject(arrowIndex)) {
-            return;
-        }
-
+        
         var arrow = ObjectPooler.SharedInstance.GetPooledObject(arrowIndex).GetComponent<MagicBolt>();
-        if (!arrow) return; // this is unnecessary, but let's do a double check
+        if (!arrow) return;
 
         arrow.transform.position = arrowSpawnPoint.position;
         // set rotation to direction of the bow
