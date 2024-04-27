@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Cinemachine;
 using KBCore.Refs;
 using UnityEngine;
@@ -9,7 +8,7 @@ public class CameraController : MonoBehaviour {
     [SerializeField] private CinemachineVirtualCamera activeCamera;
     [SerializeField] private Transform player;
     [SerializeField, Self] private Camera mainCamera;
-    [SerializeField] private Vector2 cameraOffset;
+    [SerializeField] private Vector2 offset;
 
     private void Start() {
         activeCamera.Priority = 10;
@@ -17,14 +16,7 @@ public class CameraController : MonoBehaviour {
     }
     
     private void LateUpdate() {
-        // SwitchCameraIfNeeded();
-        var height = mainCamera.orthographicSize * 2 ;
-        var width = height * mainCamera.aspect;
-        var playerPosition = player.position;
-        var cameraPosition = new Vector2((int)(playerPosition.x / width), (int)(playerPosition.y / height));
-        var pos = new Vector3(cameraPosition.x * width, cameraPosition.y * height, activeCamera.transform.position.z);
-        pos += (Vector3)cameraOffset;
-        activeCamera.transform.position = pos;
+        SwitchCameraIfNeeded();
     }
     
     private void SetLowPriority() {

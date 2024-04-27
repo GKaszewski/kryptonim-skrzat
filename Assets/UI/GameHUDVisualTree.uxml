@@ -1,7 +1,7 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/GameHUDStyle.uss?fileID=7433441132597879392&amp;guid=70d2ca4521218fb4795de15bd48571b2&amp;type=3#GameHUDStyle" />
     <engine:VisualElement name="Container" class="bg" style="flex-grow: 1; position: absolute; bottom: 0;">
-        <engine:ProgressBar value="60" name="health-bar" />
+        <engine:ProgressBar value="60" name="health-bar" class="hp-bar" />
         <engine:Label text="Keys: 1" name="keys-label" class="text" />
         <engine:Label text="Score: 100" name="score-label" class="text" />
         <engine:Label text="HighScore: 1000" name="high-score-label" class="text" />

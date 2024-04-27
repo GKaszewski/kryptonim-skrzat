@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour {
 
         if (!timeManager) timeManager = GetComponent<TimeManager>();
         if (!objectiveManager) objectiveManager = GetComponent<ObjectiveManager>();
+        if (!levelsManager) levelsManager = GetComponent<LevelsManager>();
     }
 
     private void OnDisable() {

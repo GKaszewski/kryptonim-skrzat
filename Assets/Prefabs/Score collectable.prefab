@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 803005360076023803}
   - component: {fileID: 4326706517597735093}
   - component: {fileID: 3956394163869865032}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Score collectable
   m_TagString: Item
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6149513998598452570}
   - component: {fileID: 4830562336129755109}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Isometric Diamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}

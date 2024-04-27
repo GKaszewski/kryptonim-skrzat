@@ -113,7 +113,7 @@ public class LevelsManager : MonoBehaviour {
     }
     
     private void OnObjectiveCompleted() {
-        UnlockLevel(currentLevelIndex++);
         CompleteLevel(currentLevelIndex);
+        UnlockLevel(currentLevelIndex + 1);
     }
 }
