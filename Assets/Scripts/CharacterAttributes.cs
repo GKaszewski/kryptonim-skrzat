@@ -49,6 +49,14 @@ public class CharacterAttributes : MonoBehaviour {
     public void SetHealth(float amount) {
         Health = amount;
     }
+    
+    public void SetScore(int amount) {
+        Score = amount;
+    }
+    
+    public void SetHighScore(int amount) {
+        HighScore = amount;
+    }
 
     public void AddScore(int amount) {
         if (amount == 0) return;

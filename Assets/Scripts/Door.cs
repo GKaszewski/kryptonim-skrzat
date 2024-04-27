@@ -1,5 +1,6 @@
 ﻿using KBCore.Refs;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour {
     private bool isOpen;
@@ -30,7 +31,12 @@ public class Door : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (isOpen && other.CompareTag("Player")) {
-            // Complete the level
+            GoToNextLevel();
         }
+    }
+    
+    private void GoToNextLevel() {
+        LevelsManager.Instance.currentLevelIndex++;
+        SceneManager.LoadScene(LevelsManager.Instance.currentLevelIndex);
     }
 }

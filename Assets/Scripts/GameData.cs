@@ -5,6 +5,7 @@ public class GameData : ISerializable {
     public int score;
     public int highScore;
     public int[] levelsCompleted;
+    public int[] levelsUnlocked;
     public int currentLevel;
     
     public GameData() { }
@@ -14,6 +15,7 @@ public class GameData : ISerializable {
         highScore = (int)info.GetValue("highScore", typeof(int));
         levelsCompleted = (int[])info.GetValue("levelsCompleted", typeof(int[]));
         currentLevel = (int)info.GetValue("currentLevel", typeof(int));
+        levelsUnlocked = (int[])info.GetValue("levelsUnlocked", typeof(int[]));
     }
     
     public void GetObjectData(SerializationInfo info, StreamingContext context) {
@@ -21,5 +23,6 @@ public class GameData : ISerializable {
         info.AddValue("highScore", highScore, typeof(int));
         info.AddValue("levelsCompleted", levelsCompleted, typeof(int[]));
         info.AddValue("currentLevel", currentLevel, typeof(int));
+        info.AddValue("levelsUnlocked", levelsUnlocked, typeof(int[]));
     }
 }
