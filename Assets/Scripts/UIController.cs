@@ -10,6 +10,7 @@ public class UIController : MonoBehaviour {
 
     [SerializeField, Self] private UIDocument document;
     [SerializeField] private CharacterAttributes player;
+    [SerializeField, Scene] private Inventory inventory;
 
     private void Awake() {
         var root = document.rootVisualElement;
@@ -27,6 +28,16 @@ public class UIController : MonoBehaviour {
         player.OnHealthChanged += UpdateHealthBar;
         player.OnScoreChanged += UpdateScoreLabel;
         player.OnHighScoreChanged += UpdateHighScoreLabel;
+        
+        if (!inventory) return;
+        inventory.OnInventoryChanged += UpdateInventory;
+    }
+
+    private void Start() {
+        if (!GameManager.Instance) return;
+        GameManager.Instance.objectiveManager.OnObjectiveCompleted += () => {
+            Debug.Log("Objective completed!");
+        };
     }
 
     private void OnEnable() {
@@ -35,12 +46,16 @@ public class UIController : MonoBehaviour {
         player.OnHealthChanged += UpdateHealthBar;
         player.OnScoreChanged += UpdateScoreLabel;
         player.OnHighScoreChanged += UpdateHighScoreLabel;
+        
+        if (!inventory) return;
+        inventory.OnInventoryChanged += UpdateInventory;
     }
 
     private void OnDisable() {
         player.OnHealthChanged -= UpdateHealthBar;
         player.OnScoreChanged -= UpdateScoreLabel;
         player.OnHighScoreChanged -= UpdateHighScoreLabel;
+        inventory.OnInventoryChanged -= UpdateInventory;
     }
 
     private void UpdateHealthBar(float value) {
@@ -61,5 +76,13 @@ public class UIController : MonoBehaviour {
     private void UpdateHighScoreLabel(int value) {
         if (highScoreLabel == null) return;
         highScoreLabel.text = $"High Score: {value}";
+    }
+    
+    private void UpdateInventory(Item item) {
+        switch (item.itemName) {
+            case "Key":
+                UpdateKeysLabel(item.count);
+                break;
+        }
     }
 }

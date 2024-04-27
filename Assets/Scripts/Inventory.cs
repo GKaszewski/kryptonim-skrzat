@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour {
-    private List<IItem> items = new List<IItem>();
+    private Dictionary<string, Item> items = new Dictionary<string, Item>();
     private List<IWeapon> weapons = new List<IWeapon>();
+    
+    public event Action<Item> OnInventoryChanged;
 
     [SerializeField] private List<WeaponData> weaponDatas;
     [SerializeField] private Transform defaultSpawnPoint;
@@ -14,16 +17,34 @@ public class Inventory : MonoBehaviour {
         }
     }
 
-    public void AddItem(IItem item) {
-        items.Add(item);
+    public void AddItem(Item item) {
+        if (items.TryGetValue(item.itemName, out var existingItem)) {
+            existingItem.count += item.count;
+            OnInventoryChanged?.Invoke(existingItem);
+        } else {
+            items.Add(item.itemName, item);
+            OnInventoryChanged?.Invoke(item);
+        }
     }
     
-    public bool RemoveItem(IItem item) {
-        return items.Remove(item);
+    public bool RemoveItem(Item item) {
+        if (items.TryGetValue(item.itemName, out var existingItem)) {
+            if (existingItem.count > item.count) {
+                existingItem.count -= item.count;
+                OnInventoryChanged?.Invoke(existingItem);
+                return true;
+            }
+            
+            items.Remove(item.itemName);
+            OnInventoryChanged?.Invoke(item);
+            return true;
+        }
+
+        return false;
     }
     
-    public bool ContainsItem(IItem item) {
-        return items.Contains(item);
+    public bool ContainsItem(Item item) {
+        return items.ContainsKey(item.itemName);
     }
     
     public List<IWeapon> GetWeapons() {
@@ -40,7 +61,7 @@ public class Inventory : MonoBehaviour {
         }
     }
 
-    public List<IItem> GetKeys() {
-        return items.FindAll(item => item is Key);
+    public int GetItemCount(string itemName) {
+        return items.TryGetValue(itemName, out var item) ? item.count : 0;
     }
 }

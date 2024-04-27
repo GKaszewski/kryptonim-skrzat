@@ -10,7 +10,6 @@ public class EdgeBouncer : MonoBehaviour {
     [SerializeField] private LayerMask walkableLayer;
     [SerializeField] private Transform groundCheckLeft;
     [SerializeField] private Transform groundCheckRight;
-    [SerializeField] private bool isFacingRight = true;
     
     private void Update() {
         SetDirection();

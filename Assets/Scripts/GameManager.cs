@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour {
     public CharacterAttributes player;
     public TimeManager timeManager;
     public UIController uiController;
+    public ObjectiveManager objectiveManager;
 
     private void Awake() {
         if (Instance == null) {
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour {
         }
 
         if (!timeManager) timeManager = GetComponent<TimeManager>();
+        if (!objectiveManager) objectiveManager = GetComponent<ObjectiveManager>();
     }
 
     public void RestartGame() {
