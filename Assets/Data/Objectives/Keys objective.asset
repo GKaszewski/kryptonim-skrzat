@@ -15,4 +15,4 @@ MonoBehaviour:
   objectiveDescription: Collect all keys
   requirements:
   - itemName: Key
-    requiredAmount: 10
+    requiredAmount: 3
