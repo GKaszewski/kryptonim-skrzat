@@ -1,4 +1,5 @@
-﻿using KBCore.Refs;
+﻿using System;
+using KBCore.Refs;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -13,7 +14,9 @@ public class FlyingMovement : MonoBehaviour {
     [SerializeField] private float detectionRadius = 5f;
     [SerializeField] private LayerMask targetLayer;
     [SerializeField, Self] private Rigidbody2D rb;
+    [SerializeField, Self] private SpriteRenderer spriteRenderer;
     [SerializeField] private Vector2 direction = Vector2.right;
+    [SerializeField] private float rotationSpeed = 5f;
     
     private void Start() {
         ChangeDirection();
@@ -35,6 +38,30 @@ public class FlyingMovement : MonoBehaviour {
 
     private void FixedUpdate() {
         rb.velocity = direction * currentSpeed;
+    }
+    
+    private void RotateTowardsTarget() {
+        if (!target) return;
+        
+        var targetDirection = (target.transform.position - transform.position).normalized;
+        var angle = Mathf.Atan2(targetDirection.y, targetDirection.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 0, angle), rotationSpeed * Time.deltaTime);
+        
+        spriteRenderer.flipY = angle < 0;
+    }
+    
+    private void FlipSprite() {
+        if (target) return;
+        
+        if (direction.x > 0) {
+            spriteRenderer.flipX = false;
+        } else if (direction.x < 0) {
+            spriteRenderer.flipX = true;
+        }
+    }
+
+    private void LateUpdate() {
+        RotateTowardsTarget();
     }
 
     private void ChangeDirection() {

@@ -5,10 +5,12 @@ public class EdgeBouncer : MonoBehaviour {
     [SerializeField] private float speed = 5.0f;
     [SerializeField] private float rayLength = 1.0f;
     [SerializeField, Self] private Rigidbody2D rb;
+    [SerializeField, Self] private SpriteRenderer spriteRenderer;
     [SerializeField] private Vector2 direction = Vector2.right;
     [SerializeField] private LayerMask walkableLayer;
     [SerializeField] private Transform groundCheckLeft;
     [SerializeField] private Transform groundCheckRight;
+    [SerializeField] private bool isFacingRight = true;
     
     private void Update() {
         SetDirection();
@@ -38,8 +40,10 @@ public class EdgeBouncer : MonoBehaviour {
 
         if (right && !left) {
             direction = Vector2.right;
+            spriteRenderer.flipX = false;
         } else if (!right && left) {
             direction = Vector2.left;
+            spriteRenderer.flipX = true;
         }
         
         if (!right && !left) {

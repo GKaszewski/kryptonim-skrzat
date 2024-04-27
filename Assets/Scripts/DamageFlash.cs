@@ -2,7 +2,7 @@
 using UnityEngine;
 
 public class DamageFlash : MonoBehaviour {
-    private static readonly int FlashColor = Shader.PropertyToID("_FlashColor");
+    private static readonly int FlashColor = Shader.PropertyToID("_FlashTint");
     private static readonly int FlashAmount = Shader.PropertyToID("_FlashAmount");
 
     [SerializeField] [ColorUsage(true, true)] private Color flashColor = Color.white;
@@ -20,6 +20,9 @@ public class DamageFlash : MonoBehaviour {
         
         if (renderers.Length == 0) {
             renderers = GetComponentsInChildren<SpriteRenderer>();
+        }
+        if (renderers.Length == 0) {
+            renderers = GetComponents<SpriteRenderer>();
         }
         
         Initialize();

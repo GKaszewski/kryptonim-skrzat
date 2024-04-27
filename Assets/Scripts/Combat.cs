@@ -1,8 +1,9 @@
+using System;
 using KBCore.Refs;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Combat : MonoBehaviour, Controls.IPlayerActions {
+public class Combat : MonoBehaviour {
     private Controls controls;
     private IWeapon currentWeapon;
 
@@ -19,7 +20,7 @@ public class Combat : MonoBehaviour, Controls.IPlayerActions {
 
     private void Awake() {
         controls = new Controls();
-        controls.Player.AddCallbacks(this);
+        controls.Enable();
     }
 
     private void Start() {
@@ -29,16 +30,8 @@ public class Combat : MonoBehaviour, Controls.IPlayerActions {
         SwitchWeapon(inventory.GetWeapons()[0]);
     }
 
-    public void OnMovement(InputAction.CallbackContext context) {
-
-    }
-
-    public void OnJump(InputAction.CallbackContext context) {
-
-    }
-
-    public void OnAttack(InputAction.CallbackContext context) {
-        if (context.action.triggered && currentWeapon != null) {
+    private void Update() {
+        if (controls.Player.Attack.IsPressed() && currentWeapon != null) {
             currentWeapon.Attack();
         }
     }

@@ -29,8 +29,6 @@ public class Bow : MonoBehaviour  {
         if (!arrow) return;
 
         arrow.transform.position = arrowSpawnPoint.position;
-        // set rotation to direction of the bow
-        arrow.transform.rotation = Quaternion.Euler(0f, 0f, transform.right.x > 0 ? 0f : 180f);
         arrow.gameObject.SetActive(true);
         arrow.Launch(transform.right);
 

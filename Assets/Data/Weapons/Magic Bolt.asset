@@ -15,6 +15,6 @@ MonoBehaviour:
   weaponName: Magic Bolt
   weaponPrefab: {fileID: 5916226293436417841, guid: 9f5de3c7170f9dd4ab4bd07ac47620bc, type: 3}
   damage: 1
-  attackRate: 0.6
+  attackRate: 0.3
   attackSound: {fileID: 0}
   prefabIndex: 0

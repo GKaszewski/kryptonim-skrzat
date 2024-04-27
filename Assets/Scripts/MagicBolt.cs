@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class MagicBolt : MonoBehaviour {
     [SerializeField, Self] private Rigidbody2D rb;
+    [SerializeField, Child] private SpriteRenderer spriteRenderer;
     [SerializeField] private float damage = 1f;
     [SerializeField] private float speed = 10f;
     [SerializeField] private float lifeTime = 2f;
@@ -18,6 +19,7 @@ public class MagicBolt : MonoBehaviour {
     }
 
     public void Launch(Vector2 direction) {
+        spriteRenderer.flipX = direction.x < 0;
         rb.velocity = direction * speed;
     }
     

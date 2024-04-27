@@ -19,6 +19,7 @@ public class MagicBoltWeapon : MonoBehaviour, IWeapon {
             
             magicBolt.transform.position = magicBoltSpawnPoint.position;
             magicBolt.transform.rotation = Quaternion.identity;
+            magicBolt.gameObject.SetActive(false); // reset the object (for example, disable the trail renderer)
             magicBolt.gameObject.SetActive(true);
             magicBolt.Launch(transform.right);
             if(weaponData.attackSound) AudioSource.PlayClipAtPoint(weaponData.attackSound, transform.position);
