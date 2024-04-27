@@ -9,14 +9,22 @@ public class CameraController : MonoBehaviour {
     [SerializeField] private CinemachineVirtualCamera activeCamera;
     [SerializeField] private Transform player;
     [SerializeField, Self] private Camera mainCamera;
+    [SerializeField] private Vector2 cameraOffset;
 
     private void Start() {
         activeCamera.Priority = 10;
         SetLowPriority();
     }
     
-    private void Update() {
-        SwitchCameraIfNeeded();
+    private void LateUpdate() {
+        // SwitchCameraIfNeeded();
+        var height = mainCamera.orthographicSize * 2 ;
+        var width = height * mainCamera.aspect;
+        var playerPosition = player.position;
+        var cameraPosition = new Vector2((int)(playerPosition.x / width), (int)(playerPosition.y / height));
+        var pos = new Vector3(cameraPosition.x * width, cameraPosition.y * height, activeCamera.transform.position.z);
+        pos += (Vector3)cameraOffset;
+        activeCamera.transform.position = pos;
     }
     
     private void SetLowPriority() {
