@@ -23,11 +23,7 @@ public class GameManager : MonoBehaviour {
     }
 
     private void OnDisable() {
-        SaveGame();
-    }
-
-    private void OnDestroy() {
-        SaveGame();
+        //SaveGame();
     }
 
     public void SaveGame() {
