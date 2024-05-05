@@ -1,8 +1,8 @@
-﻿using System;
-using KBCore.Refs;
+﻿using KBCore.Refs;
+using LDtkUnity;
 using UnityEngine;
 
-public class MovingPlatform : MonoBehaviour {
+public class MovingPlatform : MonoBehaviour, ILDtkImportedFields {
     private int currentWaypointIndex;
     private Vector3 targetPosition;
     private float waitTimer;
@@ -70,4 +70,19 @@ public class MovingPlatform : MonoBehaviour {
             other.transform.SetParent(null);
         }
     }
+
+    public void OnLDtkImportFields(LDtkFields fields) {
+        var waypointsRefs =  fields.GetEntityReferenceArray("waypoints");
+        waypoints = new Transform[waypointsRefs.Length];
+        for (var i = 0; i < waypointsRefs.Length; i++) {
+            var entity = waypointsRefs[i].GetEntity();
+            waypoints[i] = entity.transform;
+        }
+        
+        speed = fields.GetFloat("speed");
+        waitTime = fields.GetFloat("wait_time");
+        isLooping = fields.GetBool("looping");
+        minDistance = fields.GetFloat("min_distance");
+    }
+    
 }

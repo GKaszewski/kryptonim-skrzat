@@ -41,6 +41,8 @@ ScriptedImporter:
     _asset: {fileID: 1136710260668164356, guid: 8a1ccdc9baed34e45a4e16b4f4cc1916, type: 3}
   - _key: Platform_waypoint
     _asset: {fileID: 8761473200493853475, guid: 7afb6a18c6881f54392fa97ea77dd665, type: 3}
+  - _key: Teleport
+    _asset: {instanceID: 0}
   _enumGenerate: 0
   _enumPath: 
   _enumNamespace: 
