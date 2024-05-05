@@ -81,6 +81,7 @@ GameObject:
   - component: {fileID: 5236973926714720273}
   - component: {fileID: 4744334897564318452}
   - component: {fileID: 1288679279238942725}
+  - component: {fileID: 6703034782818023579}
   m_Layer: 7
   m_Name: Bouncing enemy
   m_TagString: Enemy
@@ -277,7 +278,6 @@ MonoBehaviour:
     m_Bits: 1
   groundCheckLeft: {fileID: 6395806882596693472}
   groundCheckRight: {fileID: 8980210734027053400}
-  isFacingRight: 1
 --- !u!60 &4744334897564318452
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -352,6 +352,22 @@ MonoBehaviour:
   renderers: []
   materials: []
   character: {fileID: 8353381337416266630}
+--- !u!114 &6703034782818023579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8764871834383306400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d4fcf0fca8e4885a8c664d62b651a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleTime: 5
+  componentToReset: {fileID: 5236973926714720273}
+  isIdle: 0
+  resetOnStart: 0
 --- !u!1 &9171758548074639442
 GameObject:
   m_ObjectHideFlags: 0

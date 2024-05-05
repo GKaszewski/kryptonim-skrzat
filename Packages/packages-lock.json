@@ -1,5 +1,16 @@
 {
   "dependencies": {
+    "com.cammin.ldtkunity": {
+      "version": "4.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0",
+        "com.unity.modules.tilemap": "1.0.0"
+      },
+      "url": "https://package.openupm.com"
+    },
     "com.kylewbanks.scenerefattribute": {
       "version": "0.11.2",
       "depth": 0,
@@ -135,6 +146,13 @@
         "com.unity.nuget.mono-cecil": "1.11.4",
         "com.unity.test-framework": "1.1.31"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {

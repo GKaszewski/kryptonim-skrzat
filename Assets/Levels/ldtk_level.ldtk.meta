@@ -1,0 +1,46 @@
+fileFormatVersion: 2
+guid: 227cd43c06138e04a9bd8e023df1c64a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: aaa16bfc62c086f4fb45da87b6acf9b1, type: 3}
+  _reimportOnDependencyChange: 1
+  _jsonFile: {fileID: -164016180542632921, guid: 227cd43c06138e04a9bd8e023df1c64a, type: 3}
+  _pixelsPerUnit: 16
+  _customLevelPrefab: {instanceID: 0}
+  _intGridValueColorsVisible: 0
+  _useCompositeCollider: 1
+  _geometryType: 0
+  _createBackgroundColor: 0
+  _createLevelBoundsTrigger: 0
+  _intGridValues:
+  - _key: Terrain_int_grid_1
+    _asset: {instanceID: 0}
+  _entities:
+  - _key: Player
+    _asset: {fileID: 559552219641392292, guid: ffe4ee25984cc2b47b81d53dedb75879, type: 3}
+  - _key: Red_crystal
+    _asset: {fileID: 7836553421622540100, guid: a627ac3076e7b35479fbbd0276f9f8d1, type: 3}
+  - _key: Orange_crystal
+    _asset: {instanceID: 0}
+  - _key: Exit_door
+    _asset: {fileID: 2477507300458463852, guid: 74fe34832369bef43b75b0eb21b90b48, type: 3}
+  - _key: Skeleton
+    _asset: {fileID: 2302791777610861666, guid: d34a3abbca5ffc842a02529d24869f62, type: 3}
+  - _key: Snake
+    _asset: {fileID: 8764871834383306400, guid: 40d649449ddf3a74ab6b16c39195b841, type: 3}
+  - _key: Bee
+    _asset: {fileID: 8811007118129489837, guid: db13d64e13ac14741bb7a01cdd9a30e7, type: 3}
+  - _key: Key
+    _asset: {fileID: 8009182402914616660, guid: c81cb0914c07da0469380fac019112e1, type: 3}
+  - _key: Moving_platform
+    _asset: {fileID: 1136710260668164356, guid: 8a1ccdc9baed34e45a4e16b4f4cc1916, type: 3}
+  - _key: Platform_waypoint
+    _asset: {fileID: 8761473200493853475, guid: 7afb6a18c6881f54392fa97ea77dd665, type: 3}
+  _enumGenerate: 0
+  _enumPath: 
+  _enumNamespace: 

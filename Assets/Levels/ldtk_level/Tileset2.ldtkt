@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 7,
+    "__cWid": 10,
+    "cachedPixelData": {
+      "opaqueTiles": "1110000010000000101000000000000000000010111111100000000111111111100001",
+      "averageColors": "f484f642f39d4aaaaeb16a5472cd3cb5f2222ddd874b84b484bb8ba48c648b54fa169ea2f111c000cc43cd53cca3c3bcc3c3c73ccccc46334eec45824543566564335333697747874a654996fb82cdc2f99df99df99df99df99df99df555695169526c865c864e345b657a444ee3fca7fb85fcccfbbbfabbfb95faeef9eefabbfabb4bcc3fe300000000fabb"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Tileset2",
+    "padding": 0,
+    "pxHei": 112,
+    "pxWid": 160,
+    "relPath": "../Sprites/tileset.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 16,
+    "uid": 2
+  }
+}

@@ -1,0 +1,1584 @@
+fileFormatVersion: 2
+guid: 266685e9af26d49438c8bb9478af1c6e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: Terrain_tilesets2_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 38f203eb7660d50448923b5402d939fe
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 200b91cde861bfe4da8aba4b23b09522
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 10501c73fdb5c804b8f2d46e3728d6a4
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c51ffe4cadf62a344bbdf9ef557d7290
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 4b2065d8183de1f4e98345097a5b8156
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 0a2d36fa747260f4288c36601ad51c39
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 45d2298d82c70de44bd38f227e00082e
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c5ac3833fecc54045ba41019d40b0196
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a5ae51d8974f17c4abffd9cd781a9558
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: d4b46caca67fcac4c9bf8c0e792e3502
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b107e5f9b9a4da046aad33c31ab6cb30
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: de5ce55777b5de047a2025a99e7b9982
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8c7bf11d926b00c49a33eb1f705f6067
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 3c138f53e7f1ba945bd08d6939c0129b
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b51ac50c68cb3714abc9ff6e2e3c3d24
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ae4f4a9bc2c7e134985ccc78b4c6c0bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1a83569c2670bc244a641ca3ac6c2b5f
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 60448fa0f06925e449f41dc19e03fa53
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d34ad3cddedc6d84cafe1bfc662fb9b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 597ffa72c5faffc42ab3ad96c40069cd
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 02716df55f0aa5c4eb3ca7fbbd3ecff3
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 43037073ab1ead24b9344fbfb41ef6ba
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 48800968197282141bb9b12552b73dbf
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d5d13692677a7794faa81ab297fd730a
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ec5bb5234285a46469187478e9c9f45b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: eb467d8a9c94e2a4c901b155e22f0014
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 40cd5656664b68a4696c7115a706dc5d
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a762a322cab736d4091ff2da57389260
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7a1bff35723710743a71c78c2fe43920
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 41efce223ffec114995f7b014fce9182
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: bc5d01ca20fe147488443adb213b5699
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: a6e82bbd968767d4ab580f2f82e99bd8
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 742b3f6bcb96aa449a3b8426c2d3a4a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: dd3d9dbce9b50004f9faba4fd83b59fe
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f30de03d222675f4c867d9fd7991e111
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 576ae0635d6441c4ebced3b8f629ac06
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7291eaebe5f1a3b49bb16921ea1fc0d4
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7252859f46d897f4888b80b6de8440f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 047118342677d3a40b36a73dc8780314
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9f5d39712cdd8994bb1d9a1aeaabd6b4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7812dbf1d215d1a46a7e0ff63b8d18c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 161452fa70f89994f949911b477d7b92
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: fdf2e3289fb81bf4bb124c1b2f3db0b3
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a613aba152d9cab438a1dc8683159527
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 608bf1704e51be54998d19d3e661b4e7
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 94c6ecc4542fa224494f1b9bfed28e54
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e539bc6ec77707946909f71fb12fe126
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: be358a78710ece944968d0f63cf4ac30
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 9949645dbbe534642bc85d919dfea23b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 766dcfd32346e2346b60ef4fcca33b1b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8b275d678512cdc46b43de90d46b5573
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 003a96a46b96bd740a88f3334d89b472
+    spriteOutline:
+    - shape:
+      - {x: 8, y: 8}
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: bd2ebd6d703ca8143968d418cb34b7aa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: df5b841109d58044c9945a74186ceb5c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e5269271bffd1574491984f1dfc140a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0d6f65f8c5e02734da700796b8fdf0c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: aeb9d5fae0d8d5b47b806f23d157e2e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b11fc8ebd1b4a244bade95a5ed0ad29a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c4f580443b521ae4195358d2a0797027
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 671bf9308c37b7e4aa1fec109feacb0b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 627bbca0580e47f49b4bdeb9d39c660e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5639093b614114a42927405d86bef600
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d8aac40208dd76142be757d4431ad812
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: dee7f24dae65caa419072461cd9fc714
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 02bbe80134673be48aa7ec6958ddcded
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 7985e652867ee3d42bd2a65983e0a911
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6b33bb2d5016bed488f0c9cf77576d91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e912edd64b603774a8c89e9d5aaa9517
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 25bfc44cae0e90d4c884ae05402627b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5550305ef11d44141951e2b35cf9a050
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f8f2e7f78bb9e0040bd58a662b893ce1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 221ca34d5c24d7d4c86b88d8396eafc1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2dc5e0d8a9552b74099d34096021243a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f26801610eb4c8746befc81855edd6b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 96b0a5bb489bdb04bbb65a621bc23e2b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 30f4d2616f902184a8d0f644cbc77370
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 12c676497d44358478d38204e8865e52
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4f33657a7d91c724b9f37d2b1af467a8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 322e734c8105b3042a5e96d189ef0f2b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b553a2f0980627848a615523cc28166d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9b79361f619871248993b31d94ed2dec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 69675e1722a173d4ab4eb320f1b57d80
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5837a2dd78387064ea4cacf683580c4c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: aa9c3ff449c280a4cb04cd71551eee81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 22cf650f854f53b428c0544a69ac5333
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 7dd8a69c04c0b514087f974655d2e14d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: dc2882e06447a7346bc8b45488595d74
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 59b54e3f33a96304b81d0f557dfeac9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8999f6bd4ae0e9240b3720cd508a0711
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5cd8c7a8d91e6c14ead66347e5a86590
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: bc6b9e123d7f6824ea5ac15c077b9249
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: eb786a4d0ff49b046aa8522ef063bba4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a895030357249da449bcdb0637b27ac3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 7a8431c151e32934a899dd8cc511891e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ec0f20097af29e540aa6e8b8fe2258c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8fd0e85e6449d474480adce61908ad13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d5897e2c5ed5baf42b9c45f8f729b7fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 43fccb96e4874904cb92df1e5978ed6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 2b52dd7bc9a986246ab23e0f3f05b679
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Terrain_tilesets2_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c8702efc7b526a645a2da005ae2701ed
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []

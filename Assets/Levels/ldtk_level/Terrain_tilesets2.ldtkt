@@ -1,0 +1,33 @@
+{
+  "Rects": null,
+  "Def": {
+    "__cHei": 10,
+    "__cWid": 10,
+    "cachedPixelData": {
+      "opaqueTiles": "1111111111111100110111110011111101111000011110000001000000000000000000000000000000000000000000000000",
+      "averageColors": "faa4fb95faa4fb85fb95fb95fb85faa4faa4faa4fb95fc85fb95fb9500000000fb95faa40000faa4faa4fb95faa4fb9500000000fb95faa4faa4faa4f9b3faa30000fb85fb95fb95fb850000000000000000faa4faa3faa4faa3000000000000000000000000faa3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "customData": [
+
+    ],
+    "embedAtlas": null,
+    "enumTags": [
+
+    ],
+    "identifier": "Terrain_tilesets2",
+    "padding": 0,
+    "pxHei": 160,
+    "pxWid": 160,
+    "relPath": "../Sprites/terrain_tilesets.png",
+    "savedSelections": [
+
+    ],
+    "spacing": 0,
+    "tags": [
+
+    ],
+    "tagsSourceEnumUid": null,
+    "tileGridSize": 16,
+    "uid": 1
+  }
+}
